@@ -24,7 +24,7 @@
 
   <!-- Custom Styles-->
   <link rel="stylesheet" href="assets/css/style.css" />
-  <title>Samarth Yadannavar | Data Scientist</title>
+  <title>Samarth Yadannavar | AI Engineer</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
@@ -344,25 +344,26 @@
               </div>
             </div>
             <div class="role brown-text text-darken-2">QUANT.AI</div>
+            <p style="margin-bottom: 10px;">Building production-ready agentic AI systems for enterprise clients, focusing on LLM orchestration, knowledge graphs, and multi-channel AI assistants. Successfully delivered multiple AI products that passed UAT and are actively used in customer-facing workflows.</p>
+            
+            <p><strong>Projects:</strong></p>
+            <p><em>Hyper-Personalization Engine</em></p>
             <ul>
-              <li>
-                Engineering a robust AI agent framework by preparing and integrating orthogonal lambda functions on the
-                top
-                of Dify for significantly reducing LLM hallucinations.
-
-              </li>
-              <li>
-                Leading the development of a Banking demo with 10 use cases, integrating Postman APIs and MongoDB for
-                streamlined data retrieval and updates, delivering an end-to-end functional solution.
-              </li>
-              <li>Driving future AI innovation by developing a fully conversational AI agent capable of autonomously
-                generating lambda functions, enhancing its human-like interaction and problem-solving capabilities.</li>
-
-
+              <li>Designed and deployed a personalization system using knowledge graphs and graph-based retrieval, enabling AI agents to deliver contextually relevant responses based on historical user interactions and preferences.</li>
+            </ul>
+            
+            <p><em>Agentic Contact Center – Agent Assist</em></p>
+            <ul>
+              <li>Built an Agent Assist system generating real-time EQ and IQ recommendations during human escalation, supporting seamless handoff across web chat and voice channels for improved customer experience.</li>
+            </ul>
+            
+            <p><em>Agentic Project Manager – Teams Bot</em></p>
+            <ul>
+              <li>Contributed to an agentic Teams bot that actively drives tasks to completion through persistent JIRA follow-ups, implementing orchestration logic with sliding-window context summarization for task continuity.</li>
             </ul>
           </div>
           <div class="card-action">
-            <span>Oct 2024 - Present | Bangalore, India</span>
+            <span>Sep 2024 - Present | Bangalore, India</span>
           </div>
         </div>
 
@@ -556,20 +557,10 @@ opportunities, resulting in 200ms user-query response time
               </a>
             </div>
             <ul>
-              <li>
-                Curated an online learning dataset comprising data from 10 college students, generated 943,520 frames at
-                60
-                frames per second (fps) to facilitate in-depth analysis of learner engagement and behaviour patterns
-              </li>
-              <li>
-                Achieved 84% accuracy in detecting emotions such as happiness, sadness, repression, etc using Motion
-                Magnification Technique for analyzing ”microexpressions”
-              </li>
-              <li>
-                Attained an accuracy of 95% on affective state engagement and identified a negative correlation of-0.76
-                between
-                learner’s emotions and engagement by conducting correlation analysis
-              </li>
+              <li>Built an end-to-end data pipeline for multimodal learning analysis, curating a large-scale learner engagement dataset (943K+ frames at 60fps).</li>
+              <li>Developed and evaluated emotion recognition models using motion magnification techniques for microexpression analysis, achieving 84% classification accuracy.</li>
+              <li>Performed statistical analysis to quantify relationships between affective states and learner engagement, identifying strong negative correlation trends.</li>
+              <li>Published findings at IEEE TALE 2024, demonstrating applied AI research with real-world educational data.</li>
             </ul>
           </div>
           <div class="card-action">
@@ -738,7 +729,87 @@ Assessment and Learning for Engineering (TALE), December 2024
       <div class="container">
         <div class="row">
           <!-- project 1 -->
+          
+          <!-- NEW PROJECT: ProfessorOS -->
           <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="ProfessorOS" src="assets/img/professorOS.webp"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">ProfessorOS<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  An AI-powered agentic learning system with autonomous curriculum planning
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Developed an agentic learning system where autonomous AI agents (Planner, Teacher, Quiz, Progress) coordinate curriculum planning, instruction delivery, and comprehension assessment using LangGraph-based state graphs.</li>
+                  <li>Built a textbook-specific RAG pipeline with structured PDF extraction, LLM-driven table-of-contents inference, and chapter-scoped vector search using pgvector for context-aware teaching.</li>
+                  <li>Engineered durable temporal workflow orchestration using Temporal.io to manage long-running learning sessions, inactivity detection, automated re-engagement, and fault-tolerant agent coordination.</li>
+                  <li>Implemented freemium usage tracking with per-request token-level cost attribution across LLM and RAG operations, including BYOK support and real-time usage analytics.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- NEW PROJECT: LLM-as-a-Judge -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="LLM-as-a-Judge" src="assets/img/llm-judge.webp"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">LLM-as-a-Judge System<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Automated evaluation framework for LLM response quality assessment
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Designed an LLM-as-a-Judge framework to evaluate responses across relevance, correctness, and hallucination risk.</li>
+                  <li>Implemented rubric-based and pairwise comparison strategies to score and rank outputs across prompting and retrieval configurations.</li>
+                  <li>Leveraged judge feedback for iterative prompt optimization and lightweight fine-tuning to improve response quality.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- NEW PROJECT: HumanoidVLA -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="HumanoidVLA" src="assets/img/humanoid-vla.webp"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">HumanoidVLA<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Vision-Language-Action model for robotic manipulation in simulation
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Fine-tuning OpenVLA foundation model to enable Unitree H1 bipedal humanoid to perform dexterous manipulation through vision-language conditioned action prediction.</li>
+                  <li>Training in MuJoCo simulation using behavior cloning with PPO-based reinforcement learning for policy refinement.</li>
+                  <li>Implementing diffusion-based action decoder for smooth trajectory generation and real-world transfer.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+<div class="col s12 m6 l6">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="IoT Home Automation" src="assets/img/IOT.webp"
@@ -766,17 +837,7 @@ Assessment and Learning for Engineering (TALE), December 2024
 
 
                 </ul>
-                <div class="card-action">
-                  <!-- <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a> -->
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/SamarthY06" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -808,16 +869,7 @@ Assessment and Learning for Engineering (TALE), December 2024
                     code generation</li>
 
                 </ul>
-                <div class="card-action">
-                  <!-- <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a> -->
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/SamarthY06"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -849,17 +901,7 @@ Assessment and Learning for Engineering (TALE), December 2024
 
 
                 </ul>
-                <div class="card-action">
-                  <!-- <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a> -->
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/SamarthY06" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -893,17 +935,7 @@ Assessment and Learning for Engineering (TALE), December 2024
 
 
                 </ul>
-                <div class="card-action">
-                  <!-- <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a> -->
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/SamarthY06" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -937,13 +969,7 @@ Assessment and Learning for Engineering (TALE), December 2024
 
 
                 </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/SamarthY06" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -977,12 +1003,7 @@ Assessment and Learning for Engineering (TALE), December 2024
 
                 </ul>
                 <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/SamarthY06"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -1015,12 +1036,7 @@ Assessment and Learning for Engineering (TALE), December 2024
                     a big cats image dataset</li>
 
                 </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/SamarthY06"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -1051,13 +1067,7 @@ Assessment and Learning for Engineering (TALE), December 2024
                       <li> Attained 80% precision on a test dataset, countered the bias using dropouts so as to elevate the accuracy of the CNN-based model</li>
 
                 </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/SamarthY06" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
+                <div class="card-action"></div>
               </div>
             </div>
           </div>
@@ -1324,7 +1334,7 @@ Assessment and Learning for Engineering (TALE), December 2024
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing', {
-      strings: ["Pythonist", "Data Scientist", "AI Enthusiast","Fast Learner"],
+      strings: ["AI Engineer", "LLM Systems Developer", "Agentic AI Builder", "ML Enthusiast"],
       loop: true,
       typeSpeed: 80,
       backSpeed: 40
