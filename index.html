@@ -25,6 +25,8 @@
   <!-- Custom Styles-->
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>Samarth Yadannavar | AI Engineer</title>
+  <meta name="description" content="Samarth Yadannavar, AI Engineer. Agent platforms, MCP, evals, voice agents and RAG in production. IIT Bombay." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&display=swap" />
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
@@ -228,10 +230,10 @@
               <h2>Hi, I'm <span class="teal">Samarth Yadannavar.</span></h2>
               <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#5dffe4"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>AI Engineer with 2+ years of experience designing and deploying LLM-based and agentic AI systems in production environments. Strong background in PyTorch, Transformers, and RAG, with hands-on experience in fine-tuning, evaluation, and scalable deployment.</h5>
+              <h5>AI Engineer with 2.5 years of building LLM and agentic systems that run in production, in quant trading and enterprise SaaS. I build the agents, the platform they run on, and the evals and guardrails that make them safe to ship.</h5>
             </div>
             <div class="social">
-              <a href="https://www.linkedin.com/in/samarth-yadannavar-a493b5200" target="_blank">
+              <a href="https://www.linkedin.com/in/samarth-yadannavar/" target="_blank">
                 <button class="icon-btn linkedin">
                   <i class="fa fa-linkedin"></i>
                 </button>
@@ -257,7 +259,7 @@
               </a> -->
             </div>
             <div class='buttons'>
-              <a href="#resume" class="readme">Resume</a>
+              <a href="https://drive.google.com/file/d/1QDpt0TtpM1xPgVcDBI2jOvaAbGexr7Ge/view?usp=drive_link" target="_blank" class="readme">Resume</a>
               <a href="#contact" class="contactme">Contact Me</a>
             </div>
           </div>
@@ -265,68 +267,40 @@
       </div>
     </section>
 
-    <!-- Second Section: About -->
-    <!-- <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text white-text"> -->
-        <!-- <blockquote>
-          <h2>
-            A Software Developer with a passion for Backend Development and Artificial Intelligence.
-
-          </h2>
-        </blockquote> -->
-        <!-- <p>
-          I am a Computer Science Grad Student at Arizona State University. I enjoy problem-solving and coding. Always
-          strive to bring 100% to the work I do.
-
-          I have worked on technologies like Python, Django, Flask, MySQL, PostgreSQL, MongoDB, HTML5, CSS, Java, C++
-          during my bachelor's. I have 19 months of professional work experience which helped me strengthen my
-          experience in Python, Flask, and Django.
-
-          I am passionate about developing complex applications that solve real-world problems impacting millions of
-          users.
-        </p> -->
-        <!-- <p>
-          <ul>
-            <li><b>Languages:</b> Python, C, C++</li>
-            <li><b>Databases:</b> MySQL, MongoDB</li>
-            <li><b>Libraries:</b> NumPy, Pandas, OpenCV, HuggingFace</li>
-            <li><b>Frameworks:</b> Flask, Keras, TensorFlow, PyTorch</li>
-            <li><b>Tools & Technologies:</b> Git, Docker, AWS </li>
-          </ul>
-          
-        </p> -->
-
-        <!-- <p>
-          
-          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
-        </p> -->
-        <!-- <p>
-          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting 
-          
-          s and personal growth.
-        </p> -->
-        <!-- <p>
-          Another Paragraph
-        </p>  -->
-        <!-- <p>
-        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
-      <!-- </div>
-    </section> -->
-
-
     <!-- Third Section: Experience -->
     <section id="experience" class="section scrollspy">
       <h3 class="page-title white-text teal">Professional Experience</h3>
       <div class="container">
 
-        <!-- Latest Experience -->
+        <!-- NK Securities -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <div class="logo-chip" aria-label="NK Securities">NK</div>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a class="teal-text hoverline">AI Engineer</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">NK SECURITIES</div>
+            <p style="margin-bottom: 10px;">Building the agent platform that engineers and quant researchers use every day.</p>
+            <ul>
+              <li>Orchestration layer over Claude Code, Codex and OpenCode with request routing, session management, async queues and caching, handling ~10k requests/s</li>
+              <li>MCP servers for 15+ internal platforms with permissioned tool access and guardrails</li>
+              <li>Self-improving coding agents: they work in sandboxed Docker containers, pass tests and CI, raise merge requests and iterate on review-bot feedback, then engineers review, merge and deploy (100+ MRs merged)</li>
+              <li>OpenTelemetry and Prometheus tracing of every agent run plus LLM-as-judge evals, cutting incident triage time by ~60%</li>
+              <li>Long-running alpha research and backtesting agents on 2 years of data, cutting research cycles from weeks to hours</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>May 2026 - Present | Gurugram, India</span>
+          </div>
+        </div>
+
+        <!-- Quant.ai -->
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -334,86 +308,31 @@
                 <a href="https://www.quant.ai/" target="_blank"><img alt="Quant logo"
                     src="assets/img/quant.png" class="responsive-img center-block" /></a>
               </div>
-              <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
                 <p>
-                  <span class="card-title"><a target="_blank"
-                      class="teal-text hoverline">AI Scientist</a></span>
+                  <span class="card-title"><a class="teal-text hoverline">AI Scientist</a></span>
                 </p>
               </div>
             </div>
             <div class="role brown-text text-darken-2">QUANT.AI</div>
-            <p style="margin-bottom: 10px;">Building production-ready agentic AI systems for enterprise clients, focusing on LLM orchestration, knowledge graphs, and multi-channel AI assistants. Successfully delivered multiple AI products that passed UAT and are actively used in customer-facing workflows.</p>
-            <p style="margin-bottom: 10px;"><em>ML Context:</em> Fine-tuned LLMs on custom datasets for customer use cases (utilities, banking), and deployed <strong>SLMs</strong> for short decision-making within agentic architectures.</p>
-            
-            <p><strong>Projects:</strong></p>
-            <p><em>Hyper-Personalization Engine</em></p>
+            <p style="margin-bottom: 10px;">Worked directly with enterprise client stakeholders and took 3 agentic AI products through UAT into live customer workflows.</p>
             <ul>
-              <li>Designed and deployed a personalization system using knowledge graphs and graph-based retrieval, enabling AI agents to deliver contextually relevant responses based on historical user interactions and preferences.</li>
-            </ul>
-            
-            <p><em>Agentic Contact Center – Agent Assist</em></p>
-            <ul>
-              <li>Built an Agent Assist system generating real-time EQ and IQ recommendations during human escalation, supporting seamless handoff across web chat and voice channels for improved customer experience.</li>
-            </ul>
-            
-            <p><em>Agentic Project Manager – Teams Bot</em></p>
-            <ul>
-              <li>Contributed to an agentic Teams bot that actively drives tasks to completion through persistent JIRA follow-ups, implementing orchestration logic with sliding-window context summarization for task continuity.</li>
+              <li><strong>Voice AI agents:</strong> extended LiveKit with Twilio telephony to run LangGraph agents on live customer calls with custom turn-taking, serving 50+ calls/hour</li>
+              <li><strong>Multi-agent orchestration:</strong> LangGraph StateGraph workflows with tool calling, structured outputs, task decomposition and fallback handling</li>
+              <li><strong>Graph-RAG:</strong> hybrid retrieval over embeddings and a knowledge graph with tool-augmented reasoning, lifting retrieval accuracy from ~60% to ~80%</li>
+              <li><strong>Personalization engine:</strong> knowledge-graph personalization from historical user interactions, improving response relevance by ~25%</li>
+              <li><strong>Agent Assist:</strong> real-time EQ and IQ recommendations for human agents across web chat and voice, reducing average handle time by ~20%</li>
+              <li><strong>Agentic project manager:</strong> a Teams bot that drives tasks through persistent JIRA follow-ups with sliding-window summarization, cutting overdue tickets by ~30%</li>
+              <li>Fine-tuned LLMs on customer datasets and deployed small language models for quick decisions inside agent workflows</li>
             </ul>
           </div>
           <div class="card-action">
-            <span>Sep 2024 - Present | Bangalore, India</span>
+            <span>Sep 2024 - Apr 2026 | Bengaluru, India</span>
           </div>
         </div>
 
 
-        <!-- <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.hdfclife.com/" target="_blank"><img alt="HDFC Life logo"
-                    src="/assets/img/hdfc-life-vector-logo.png" class="responsive-img center-block" style="width: 70px; height: 50px;"/></a>
-              </div>
-              
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a target="_blank"
-                      class="teal-text hoverline">Data Scientist</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">HDFC Life</div>
-            <ul>
-              <li>
-                Customized a tree-based optimization algorithm that separates drugs into distinct groups to maximize the
-                concurrent execution of drug
-                dispenser robots; improved an optimization algorithm that reduced the cycle-time of the automation
-                process
-                by 25%.
-              </li>
-              <li>
-                Devised a customized recursion algorithm to extend the functionality of the current environment to a
-                multi-robot and multi-system
-                environment
-              </li>
-              <li>
-                Built a modular video analytics app using Flask, OpenCV that tracks the location of each human in a
-                multi-camera environment;
-                utilized perspective transformation, object detection, and object tracking to find the location of a
-                human.
-              </li>
-              <li>Increased the speed of the video analytics app by 20% by using a customized YOLOv3 algorithm to
-                perform
-                object detection and
-                DeepSORT algorithm for multi-object tracking.</li>
-
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>July 2024 - Sept 2024 | Mumbai, India</span>
-          </div>
-        </div> -->
+        
 
         <!-- Experience 2 -->
         <div class="card">
@@ -427,8 +346,7 @@
               <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
                 <p>
-                  <span class="card-title"><a class="teal-text hoverline"> AI Research & Platform Intern
-                    </a></span>
+                  <span class="card-title"><a class="teal-text hoverline">AI Research and Platform Engineer (Intern)</a></span>
                 </p>
               </div>
             </div>
@@ -436,24 +354,20 @@
             <ul>
               <li>
                 Implemented Med-Agents, a chain-of-thought technique for medical reasoning on the NEET PG dataset,
-                boosting
-                GPT-4o’s accuracy from 77% to 81.6% using a zero-shot approach
+                lifting GPT-4o zero-shot accuracy from 77% to 81.6%
               </li>
               <li>
-                Further modified the given technique to resolve inconsistencies and confusion in the final decision
-                making
-                which
-                led to 1.4% increase in accuracy, amounting to an overall accuracy of 83%
+                Modified the final decision step to resolve inconsistencies between the agents' answers, which added
+                another 1.4%, for an overall accuracy of 83%
               </li>
               <li>
-                Added Direct Preference Optimization (DPO) task for LLava-Med Multimodal LLM, enabling the model to
-                learn
-                and interpret unknown medical images autonomously
+                Added a Direct Preference Optimization (DPO) task for the LLaVA-Med multimodal LLM so it can interpret
+                unseen medical images
               </li>
             </ul>
           </div>
           <div class="card-action">
-            <span>April 2024 - June 2024 | Mumbai, India</span>
+            <span>Apr 2024 - Jul 2024 | Mumbai, India</span>
           </div>
         </div>
 
@@ -466,7 +380,7 @@
 
               </div> -->
               <div class="col s12 m2">
-                <a href="https://getwork.org/" target="_blank"><img alt="Fractal logo"
+                <a href="https://getwork.org/" target="_blank"><img alt="GetWork logo"
                     src="assets/img/getwork.jpg" class="responsive-img center-block" style="width: 70px; height: 50px;" /></a>
               </div>
               
@@ -557,10 +471,10 @@ opportunities, resulting in 200ms user-query response time
               </a>
             </div>
             <ul>
-              <li>Built an end-to-end data pipeline for multimodal learning analysis, curating a large-scale learner engagement dataset (943K+ frames at 60fps).</li>
+              <li>Collected and curated a multimodal learner engagement dataset (943K+ frames at 60fps) for learning analysis.</li>
               <li>Developed and evaluated emotion recognition models using motion magnification techniques for microexpression analysis, achieving 84% classification accuracy.</li>
               <li>Performed statistical analysis to quantify relationships between affective states and learner engagement, identifying strong negative correlation trends.</li>
-              <li>Published findings at IEEE TALE 2024, demonstrating applied AI research with real-world educational data.</li>
+              <li>Published the findings at <a href="https://doi.org/10.1109/TALE62452.2024.10834331" target="_blank">IEEE TALE 2024</a>.</li>
             </ul>
           </div>
           <div class="card-action">
@@ -629,7 +543,7 @@ opportunities, resulting in 200ms user-query response time
               <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
                 <p>
-                  <span class="card-title"><a  target="_blank"
+                  <span class="card-title"><a href="https://doi.org/10.1109/TALE62452.2024.10834331" target="_blank"
                       class="teal-text hoverline">Publication</a></span>
                 </p>
               </div>
@@ -637,9 +551,10 @@ opportunities, resulting in 200ms user-query response time
             <!-- <div class="role brown-text text-darken-2">AI Researcher</div> -->
             <ul>
               <li>
-                Samarth Yadannavar, Ashwin T.S., Manjunath, Ramkumar Rajendran ”Multimodal Analysis of Learning-Centered
-Emotions and Cognitive Processes in Open-Ended Learning Environments”, IEEE International Conference on Teaching,
-Assessment and Learning for Engineering (TALE), December 2024
+                Samarth Yadannavar, Ashwin T.S., Manjunath, Ramkumar Rajendran, &ldquo;Multimodal Analysis of Learning-Centered
+Emotions and Cognitive Processes in Open-Ended Learning Environments&rdquo;, IEEE International Conference on Teaching,
+Assessment and Learning for Engineering (TALE), December 2024.
+                <a href="https://doi.org/10.1109/TALE62452.2024.10834331" target="_blank">doi:10.1109/TALE62452.2024.10834331</a>
               </li>
               
 
@@ -728,9 +643,281 @@ Assessment and Learning for Engineering (TALE), December 2024
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
         <div class="row">
-          <!-- project 1 -->
-          
-          <!-- NEW PROJECT: ProfessorOS -->
+
+          <div class="col s12"><h5 class="proj-group"><span class="p">$</span> ls ~/projects/work</h5></div>
+
+          <!-- Coding-Agent Orchestrator -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> cat orchestrator.md
+backends : claude-code | codex | opencode
+layers   : routing, sessions, async queues, cache
+load     : ~10k requests/s</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Coding-Agent Orchestrator<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">NK Securities</span> One interface over Claude Code, Codex and OpenCode</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Built a high-throughput orchestration layer over Claude Code, Codex and OpenCode with request routing and session management.</li>
+                  <li>Async queues and caching sit in front of the agents, which cut both latency and cost.</li>
+                  <li>Handles around 10k requests per second and gives engineers and quant researchers a single way into coding agents.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MCP Platform -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> mcp ls --servers
+15+ internal platforms exposed as tools
+access     : permissioned per tool
+guardrails : on</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">MCP Platform<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">NK Securities</span> MCP servers for 15+ internal platforms</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Turned 15+ internal platforms into MCP servers so agents can use them as tools.</li>
+                  <li>Permissioned tool access, so an agent only reaches the tools it is allowed to use.</li>
+                  <li>Guardrails on tool calls across internal data, tooling and deployments.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Self-Improving Coding Agents -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> agent run --sandbox docker
+[ok] change made, tests pass
+[ok] CI green, merge request opened
+[..] review bot feedback, human merge</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Self-Improving Coding Agents<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">NK Securities</span> Agents that raise their own merge requests</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Agents get sandboxed Docker access to the code, make a change and run the tests.</li>
+                  <li>Once tests and CI pass, the agent raises a merge request and iterates on feedback from an MR review bot.</li>
+                  <li>Engineers are then notified and they review, merge and deploy. A human makes the final call every time. 100+ MRs merged so far.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Agent Observability and Evals -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> tail -f agent-traces
+span agent.run      otel  ok
+span llm.call       otel  ok
+judge score        0.92 pass</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Agent Observability and Evals<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">NK Securities</span> Tracing and LLM-as-judge evals on every agent run</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>OpenTelemetry and Prometheus tracing of every agent run and LLM call.</li>
+                  <li>LLM-as-judge evals on agent outputs, rolled up into reliability reports.</li>
+                  <li>Cut incident triage time by about 60%.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alpha Research Agents -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> research --data 2y --backtest
+estimating alphas ...
+backtesting ...
+cycle time: weeks -> hours</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Alpha Research Agents<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">NK Securities</span> Long-running research and backtesting agents</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Long-running agents that estimate alphas and backtest them on 2 years of data.</li>
+                  <li>Cut research cycles from weeks to hours.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time Voice Agents -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> voice-agent start
+transport : LiveKit + Twilio
+brain     : LangGraph
+calls/hour: 50+</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Real-Time Voice Agents<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">Quant.ai</span> LangGraph agents on live phone calls</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Extended LiveKit with Twilio telephony to run LangGraph agents on live customer calls.</li>
+                  <li>Custom turn-taking on top of LiveKit.</li>
+                  <li>Served 50+ calls an hour.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hybrid Graph-RAG -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> eval retrieval
+vector only   ~60%
+hybrid graph  ~80%
+</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Hybrid Graph-RAG<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">Quant.ai</span> Embeddings plus a knowledge graph</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Hybrid retrieval that combines embedding search with a knowledge graph and tool-augmented reasoning.</li>
+                  <li>Lifted retrieval accuracy from about 60% to about 80%.</li>
+                  <li>Also built a knowledge-graph personalization engine on historical user interactions, improving response relevance by ~25%.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Multi-Agent Orchestration -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> graph show
+plan -> tools -> structured output
+      \-> fallback on failure
+</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Multi-Agent Orchestration<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">Quant.ai</span> LangGraph StateGraph workflows for enterprise clients</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>LangGraph StateGraph workflows with tool calling and structured outputs.</li>
+                  <li>Task decomposition and fallback handling built into the graph.</li>
+                  <li>Part of the 3 agentic products taken through UAT into live customer workflows.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Medical LLM Reasoning -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> eval neet-pg --model gpt-4o
+zero-shot baseline   77.0%
+med-agents           81.6%
+modified decision    83.0%</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Medical LLM Reasoning<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">Fractal</span> Med-Agents on GPT-4o and DPO for LLaVA-Med</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Implemented Med-Agents chain-of-thought reasoning on GPT-4o for the NEET PG benchmark.</li>
+                  <li>Reworked the final decision step and lifted zero-shot accuracy from 77% to 83%.</li>
+                  <li>Added a DPO post-training task for the LLaVA-Med multimodal LLM.</li>
+                </ul>
+                <div class="card-action"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12"><h5 class="proj-group"><span class="p">$</span> ls ~/projects/personal</h5></div>
+
+          <!-- OmniClaw -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> omniclaw "send the file to my phone"
+mac   : accessibility tree -> click
+peer  : signed json-rpc -> android
+</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">OmniClaw<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">Personal, in progress</span> A voice assistant that drives my Mac and phone</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Lets an agent control native macOS apps through the Accessibility API (pyobjc), with a screenshot and vision-model fallback when an app exposes no UI tree.</li>
+                  <li>Websites go through a Playwright browser tool, and read-only lookups fall back to web fetch and search.</li>
+                  <li>Mac and Android agents talk peer to peer over HMAC-signed JSON-RPC, so a task heard on one device can run on the other. The Android side is still a work in progress.</li>
+                </ul>
+                <div class="card-action"><a href="https://github.com/SamarthY06/Omniclaw" target="_blank" class="proj-link">View on GitHub</a></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ProfessorOS -->
           <div class="col s12 m6 l6">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -750,9 +937,10 @@ Assessment and Learning for Engineering (TALE), December 2024
                 <ul>
                   <li>Developed an agentic learning system where autonomous AI agents (Planner, Teacher, Quiz, Progress) coordinate curriculum planning, instruction delivery, and comprehension assessment using LangGraph-based state graphs.</li>
                   <li>Built a textbook-specific RAG pipeline with structured PDF extraction, LLM-driven table-of-contents inference, and chapter-scoped vector search using pgvector for context-aware teaching.</li>
-                  <li>Engineered durable temporal workflow orchestration using Temporal.io to manage long-running learning sessions, inactivity detection, automated re-engagement, and fault-tolerant agent coordination.</li>
+                  <li>Added durable workflows for long-running learning sessions, with inactivity detection, automated re-engagement and fault-tolerant agent coordination.</li>
                   <li>Implemented freemium usage tracking with per-request token-level cost attribution across LLM and RAG operations, including BYOK support and real-time usage analytics.</li>
                 </ul>
+                <div class="card-action"><a href="https://github.com/SamarthY06/Professor" target="_blank" class="proj-link">View on GitHub</a></div>
               </div>
             </div>
           </div>
@@ -809,7 +997,61 @@ Assessment and Learning for Engineering (TALE), December 2024
             </div>
           </div>
 
-<div class="col s12 m6 l6">
+          <!-- Audio Classification -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> python train.py
+dataset : UrbanSound8K (10 classes)
+input   : mel spectrograms
+test acc: 92%</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Audio Classification<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">Personal</span> Urban sound classification with a CNN</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>CNN in PyTorch and torchaudio that classifies mel spectrograms of urban sounds.</li>
+                  <li>Trained on the 10-class UrbanSound8K dataset.</li>
+                  <li>Reached 92% accuracy on the test set.</li>
+                </ul>
+                <div class="card-action"><a href="https://github.com/SamarthY06/Audio_Classification" target="_blank" class="proj-link">View on GitHub</a></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Smart AI Pendant -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="term activator"><div class="term-bar activator"><i></i><i></i><i></i><b class="activator">samarth@ubuntu: ~/projects</b></div><pre class="activator"><span class="p">$</span> openscad pendant.scad
+board  : XIAO ESP32-S3 Sense
+parts  : camera, mic, speaker, LiPo
+fit    : +0.5 mm clearance</pre></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Smart AI Pendant<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p><span class="proj-tag">Personal hardware, in progress</span> Parametric CAD for an AI wearable</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Parametric OpenSCAD case for a pendant with a camera, always-on microphone, speaker and rechargeable battery.</li>
+                  <li>Every pocket is sized from manufacturer datasheets with 0.5 mm clearance so the parts drop in.</li>
+                  <li>Includes a full bill of materials with Indian sourcing.</li>
+                </ul>
+                <div class="card-action"><a href="https://github.com/SamarthY06/Smart-Pendent" target="_blank" class="proj-link">View on GitHub</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l6">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="IoT Home Automation" src="assets/img/IOT.webp"
@@ -928,14 +1170,14 @@ Assessment and Learning for Engineering (TALE), December 2024
                 <ul>
                   <li> Developed Text Summarization model using SAMSum dataset having 16K messenger-like conversations
                     with summaries</li>
-                  <li> Fine-tuned Facebook’s BART model using LoRA,a parameter-efficientfine-tuning(PEFT) method for
+                  <li> Fine-tuned Facebook’s BART model using LoRA, a parameter-efficient fine-tuning (PEFT) method for
                     large models</li>
-                  <li>Deployed the fine-tuned LoRA adapter to HuggingFace Model Hub,achieving computationally efficient
+                  <li>Deployed the fine-tuned LoRA adapter to HuggingFace Model Hub, achieving computationally efficient
                     model adaptation</li>
 
 
                 </ul>
-                <div class="card-action"></div>
+                <div class="card-action"><a href="https://github.com/SamarthY06/Text-Summarization-using-GenerativeAI" target="_blank" class="proj-link">View on GitHub</a></div>
               </div>
             </div>
           </div>
@@ -969,7 +1211,7 @@ Assessment and Learning for Engineering (TALE), December 2024
 
 
                 </ul>
-                <div class="card-action"></div>
+                <div class="card-action"><a href="https://github.com/SamarthY06/Helmet_and_Number_plate_detection" target="_blank" class="proj-link">View on GitHub</a></div>
               </div>
             </div>
           </div>
@@ -1002,8 +1244,7 @@ Assessment and Learning for Engineering (TALE), December 2024
                     matrix factorization</li>
 
                 </ul>
-                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action"></div>
+                                <div class="card-action"><a href="https://github.com/SamarthY06/Movie-Recommendation" target="_blank" class="proj-link">View on GitHub</a></div>
               </div>
             </div>
           </div>
@@ -1067,7 +1308,7 @@ Assessment and Learning for Engineering (TALE), December 2024
                       <li> Attained 80% precision on a test dataset, countered the bias using dropouts so as to elevate the accuracy of the CNN-based model</li>
 
                 </ul>
-                <div class="card-action"></div>
+                <div class="card-action"><a href="https://github.com/SamarthY06/Document_Classification" target="_blank" class="proj-link">View on GitHub</a></div>
               </div>
             </div>
           </div>
@@ -1090,19 +1331,19 @@ Assessment and Learning for Engineering (TALE), December 2024
                 <img alt="" src="assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/cpp.png" class="responsive-img" />C++
+                <img alt="" src="assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />SQL
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />SQL
+                <div class="skill-chip">PG</div>PostgreSQL
               </div>
               <div class="col s4 m2">
                 <img alt="" src="assets/img/mongodb.svg" class="responsive-img" />MongoDB
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/mongodb.svg" class="responsive-img" />Neo4j
+                <div class="skill-chip">KG</div>Neo4j
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/mongodb.svg" class="responsive-img" />pgvector
+                <div class="skill-chip">pgv</div>pgvector
               </div>
             </div>
           </div>
@@ -1134,7 +1375,6 @@ Assessment and Learning for Engineering (TALE), December 2024
           </div>
         </div>
 
-        <!-- Frameworks -->
         <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Generative AI & Agentic Systems</h4>
@@ -1146,22 +1386,39 @@ Assessment and Learning for Engineering (TALE), December 2024
                 <img alt="" src="assets/img/langchain.png" class="responsive-img" />LangGraph
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/hf.svg" class="responsive-img" />HuggingFace
+                <div class="skill-chip">MCP</div>MCP
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/hf.svg" class="responsive-img" />RAG
+                <img alt="" src="assets/img/hf.svg" class="responsive-img" />Hugging Face
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/hf.svg" class="responsive-img" />LoRA/PEFT
+                <div class="skill-chip">RAG</div>RAG / Graph-RAG
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/hf.svg" class="responsive-img" />Vector DBs
+                <div class="skill-chip">vec</div>Vector DBs
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">eval</div>Evals / LLM-as-judge
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">safe</div>Guardrails
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">LoRA</div>LoRA / DPO
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">&gt;_</div>Claude Code / Codex
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">rtc</div>LiveKit
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">tel</div>Twilio
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Other -->
         <div class="card">
           <div class="card-content">
             <h4 class="brown-text light">Infrastructure & Tools</h4>
@@ -1170,19 +1427,37 @@ Assessment and Learning for Engineering (TALE), December 2024
                 <img alt="" src="assets/img/Docker_logo.png" class="responsive-img" />Docker
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/aws.png" class="responsive-img" />AWS
+                <div class="skill-chip">API</div>FastAPI
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">rpc</div>gRPC
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">CI</div>CI/CD
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">otel</div>OpenTelemetry
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">prom</div>Prometheus
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/sagemaker.jpg" class="responsive-img" />SageMaker
+              </div>
+              <div class="col s4 m2">
+                <div class="skill-chip">S3</div>S3 / Lambda
               </div>
               <div class="col s4 m2">
                 <img alt="" src="assets/img/googlecloud.webp" class="responsive-img" />GCP
               </div>
               <div class="col s4 m2">
+                <div class="skill-chip">az</div>Azure
+              </div>
+              <div class="col s4 m2">
                 <img alt="" src="assets/img/git.png" class="responsive-img" />Git
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/flask-logo.png" class="responsive-img" />FastAPI
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="assets/img/flask-logo.png" class="responsive-img" />Temporal.io
+                <div class="skill-chip">q</div>Async queues / caching
               </div>
             </div>
           </div>
@@ -1231,36 +1506,7 @@ Assessment and Learning for Engineering (TALE), December 2024
       <div class="container">
         <div class="row">
           <!-- Education -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.asu.edu/" target="_blank"
-                      class="teal-text hoverline">Arizona State University</a></span>
-                </p>
-                <p class="brown-text">Tempe, USA</p>
-                <p>
-                  <b>Degree: </b>Master of Science in Computer Science
-                  <br>
-                  <b>CGPA: </b>4.0/4.0
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Distributed Database Systems</li>
-                    <li>Cloud Computing</li>
-                    <li>Foundations of Algorithms</li>
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-
-
-          </div> -->
+          
           <div class="col s14 m12">
             <div class="card">
               <div class="card-content">
@@ -1269,11 +1515,11 @@ Assessment and Learning for Engineering (TALE), December 2024
                       href="https://www.iitb.ac.in/"
                       target="_blank" class="teal-text hoverline">Indian Institute of Technology, Bombay</a></span>
                 </p>
-                <p class="brown-text">Nov 2020 - May 2024 | Mumbai, India</p>
+                <p class="brown-text">Oct 2020 - May 2024 | Mumbai, India</p>
                 <p>
-                  <b>Major: </b> Metallurgical and Material Science
+                  <b>Degree: </b> B.Tech, Metallurgical Engineering and Materials Science
                   <br>
-                  <b>Minor: </b> Data Science and Artificial Intelligence
+                  <b>Minor: </b> Data Science and Artificial Intelligence (CMINDS)
                   
                 </p>
 
@@ -1304,12 +1550,7 @@ Assessment and Learning for Engineering (TALE), December 2024
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container white-text">
-        <p>
-          <a aria-label="Call Samarth" data-position="top" data-tooltip="Call Samarth"
-            class="btn-floating btn-large waves-effect waves-light black tooltipped"><i class="fa fa-phone"></i><a class="white-text"
-              class="white-text" aria-label="Call Samarth">+91 7038021340</a></a>
-        </p>
-        <p>
+                <p>
           <a aria-label="Email Samarth" href="mailto:samarthyadannavarml@gmail.com " target="_blank" data-position="top"
             data-tooltip="Email Samarth" class="btn-floating btn-large waves-effect waves-light black tooltipped"><i
               class="fa fa-envelope"></i><a class="white-text" aria-label="Email Samarth" href="mailto:samarthyadannavarml@gmail.com"
@@ -1323,11 +1564,11 @@ Assessment and Learning for Engineering (TALE), December 2024
               target="_blank">github.com/SamarthY06</a></a>
         </p>
         <p>
-          <a aria-label="View Samarth on LinkedIn" href="https://www.linkedin.com/in/samarth-yadannavar-a493b5200" target="_blank"
+          <a aria-label="View Samarth on LinkedIn" href="https://www.linkedin.com/in/samarth-yadannavar/" target="_blank"
             data-position="top" data-tooltip="View Samarth on LinkedIn"
             class="btn-floating btn-large waves-effect waves-light black tooltipped"><i class="fa fa-linkedin"></i><a class="white-text"
-              aria-label="Samarth on LinkedIn" href="https://www.linkedin.com/in/samarth-yadannavar-a493b5200" class="hoverline"
-              target="_blank">linkedin.com/in/samarth-yadannavar-a493b5200</a></a>
+              aria-label="Samarth on LinkedIn" href="https://www.linkedin.com/in/samarth-yadannavar/" class="hoverline"
+              target="_blank">linkedin.com/in/samarth-yadannavar</a></a>
         </p>
       </div>
     </section>
@@ -1337,7 +1578,7 @@ Assessment and Learning for Engineering (TALE), December 2024
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing', {
-      strings: ["AI Engineer", "LLM Systems Developer", "Agentic AI Builder", "ML Enthusiast"],
+      strings: ["AI Engineer", "Agentic AI Builder", "LLM Systems Developer", "MCP and Evals Tinkerer"],
       loop: true,
       typeSpeed: 80,
       backSpeed: 40
